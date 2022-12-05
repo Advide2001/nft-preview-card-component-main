@@ -81,4 +81,7 @@ h6 {
     --fw-soft: 300;
     --fw-regular: 400;
     --fw-bold: 600;
+
+    /* Font families/y */
+    font-family: "Outfit", sans-serif;
 }
