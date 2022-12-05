@@ -66,3 +66,19 @@ h5,
 h6 {
     overflow-wrap: break-word;
 }
+
+/* Declare custom variables */
+:root {
+    /* Colors */
+    --clr-primary-700: hsl(215, 51%, 70%);
+    --clr-primary-500: hsl(178, 100%, 50%);
+    --clr-neutral-500: hsl(217, 54%, 11%); /* main bg */
+    --clr-neutral-600: hsl(216, 50%, 16%); /* card bg */
+    --clr-neutral-700: hsl(215, 32%, 27%); /* line/border top */
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    /* Font weights */
+    --fw-soft: 300;
+    --fw-regular: 400;
+    --fw-bold: 600;
+}
