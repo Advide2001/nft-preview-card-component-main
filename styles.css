@@ -183,3 +183,9 @@ body {
 .product__creator > span {
     color: var(--clr-neutral-100);
 }
+
+.product__creator > span:is(:hover, :focus),
+.product__title:is(:hover, :focus) {
+    cursor: pointer;
+    color: var(--clr-primary-500);
+}
